@@ -1,0 +1,614 @@
+/**************************************************************/
+/******************    Custom Stylesheet    *******************/
+/*******************   by Corey Sizemore   ********************/
+/*******************     version 1.0       ********************/
+/**************************************************************/
+
+a#mobileopen:link, a#mobileopen:visited, a#mobileclose:link, a#mobileclose:visited, a#searchopen:link, a#searchopen:visited {
+	color: #166790;
+}
+
+#search, #mobile_nav {
+	background: rgba(86,175,86,.95);
+}
+
+header.fixed_height {
+	height: 550px;
+}
+
+header.home_default_image,
+header.page_default_image {
+	background: url('../img/home.jpg') no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+#contact_information {
+	background: #62C462;
+	
+	ul {
+		
+		li {
+			
+			a:link,a:visited {
+				color: #ffffff;
+				font-weight: 500;
+			}
+		}
+	}
+}
+
+#home_logo {
+	bottom: 140px;
+	height: 100px;
+	
+	#logo_home {
+		
+		img {
+			width: 400px;
+		}
+		
+		h2.site-description {
+			
+			.part1,.part2 {
+				display: block;
+			}
+			
+			.part1 {
+				font-size: 28px;
+				font-weight: 300;
+			}
+			
+			.part2 {
+				font-size: 42px;
+				font-weight: 500;
+				text-transform: uppercase;
+			}
+		}
+	}
+	
+	#home_page_nav {
+		
+		ul {
+			
+			li {
+				
+				a:link,a:visited {
+					background: #62C462;
+				}
+			}
+		}
+	}
+}
+
+.main_cushion.includes {
+	
+	.sponsor_logo {
+		
+		img {
+			display: block;
+			margin: 0 auto;
+			height: 100px;
+			width: auto;
+			-webkit-transition: opacity .15s linear;
+			-moz-transition: opacity .15s linear;
+			-ms-transition: opacity .15s linear;
+			transition: opacity .15s linear;
+		}
+		
+		img:hover {
+			opacity: .5;
+		}
+		
+	}
+}
+
+.content {
+	
+	h1 {
+		color: #166790;
+	}
+}
+
+.sidebar {
+	
+	div {
+		margin-bottom: 40px;
+	}
+	
+	h3 {
+		color: #166790;
+	}
+	
+	input[type="text"] {
+		border: none;
+		border-bottom: 2px solid #62C462;
+		color: #777777;
+		font-size: 24px;
+		height: 30px;
+		margin-bottom: 10px;
+		width: 100%;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+	}
+	
+	input[type="submit"] {
+		background: #62C462;
+		border: none;
+		color: #ffffff;
+		cursor: pointer;
+		display: inline-block;
+		font-family: "Hind",sans-serif;
+		font-size: 16px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		padding: 10px 15px;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-webkit-transition: opacity .15s linear;
+		-moz-transition: opacity .15s linear;
+		-ms-transition: opacity .15s linear;
+		transition: opacity .15s linear;
+	}
+	
+	input[type="submit"]:hover {
+		opacity: .5;
+	}
+	
+	input[type="text"]:focus {
+		outline: none;
+	}
+}
+
+.parallax.parallax_default_image {
+	background: url('../img/parallax.jpg') no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+footer {
+	background: #166790;
+}
+
+.copyright {
+	background: #0f5579;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #b1b1b1 !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #b1b1b1 !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #b1b1b1 !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #b1b1b1 !important;
+}
+
+/* directory plugin */
+
+#wpbdp-main-box,
+#wpbdp-categories {
+	background: #f5f5f5;
+	clear: none !important;
+	float: left;
+	margin: 0 10px;
+	padding: 40px;
+}
+
+#wpbdp-main-box {
+	width: calc(60% - 60px);
+	margin: 0px 10px 0px 0px;
+	
+	.wpbdp-main-links,
+	.advanced-search-link {
+		text-align: left;
+	}
+	
+	.advanced-search-link {
+		font-size: 12px;
+		line-height: 24px;
+	}
+	
+	input[type="text"] {
+		border: none;
+		background: transparent;
+		border-bottom: 2px solid #62C462;
+		color: #777777;
+		font-size: 24px;
+		height: 30px;
+		margin-bottom: 10px;
+		width: calc(100% - 30px);
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+	}
+	
+	input[type="text"]:focus {
+		outline: none;
+	}
+	
+	input[type="submit"] {
+		background: #166790;
+	}
+	
+	input[type="button"] {
+		background: #62C462;
+	}
+	
+	input[type="submit"],
+	input[type="button"] {
+		border: none;
+		color: #ffffff;
+		cursor: pointer;
+		display: inline-block;
+		font-family: "Hind",sans-serif;
+		font-size: 16px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		padding: 10px 15px;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-webkit-transition: opacity .15s linear;
+		-moz-transition: opacity .15s linear;
+		-ms-transition: opacity .15s linear;
+		transition: opacity .15s linear;
+	}
+	
+	input[type="submit"]:hover,
+	input[type="button"]:hover {
+		opacity: .5;
+	}
+}
+
+#wpbdp-categories {
+	width: calc(40% - 60px);
+	border-radius: 4px;
+	margin: 0px 0px 0px 10px;
+	
+	.wpbdp-categories {
+		padding: 0px;
+		margin: 0px;
+		
+		li {
+			display: block;
+			width: 100%;
+			
+			a:link,a:visited {
+				background: #62C462;
+				color: #ffffff;
+				font-size: 14px;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				padding: 10px 20px;
+			}
+		}
+	}
+}
+
+#wpbdp-page-all_listings,
+#wpbdp-page-category,
+#wpbdp-search-page,
+#wpbdp-submit-page {
+	
+	h2 {
+		color: #166790;
+		font-size: 32px;
+		margin-bottom: 20px;
+	}
+	
+	.wpbdp-bar {
+		display: none;
+	}
+	
+	#wpbdp-main-box {
+		float: none;
+		margin-bottom: 100px;
+		width: 100%;
+	}
+	
+	.wpbdp-listing-excerpt {
+		background: #fafafa;
+		margin-bottom: 20px;
+		padding: 40px;
+		
+		.wpbdp-button {
+			background: #62C462;
+			border: none;
+			color: #ffffff;
+			cursor: pointer;
+			display: inline-block;
+			font-family: "Hind",sans-serif;
+			font-size: 14px;
+			letter-spacing: 2px;
+			margin-right: 10px;
+			text-transform: uppercase;
+			padding: 8px 15px;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			-ms-appearance: none;
+			appearance: none;
+			-webkit-transition: opacity .15s linear;
+			-moz-transition: opacity .15s linear;
+			-ms-transition: opacity .15s linear;
+			transition: opacity .15s linear;
+			-webkit-border-radius: 1px;
+			-moz-border-radius: 1px;
+			-ms-border-radius: 1px;
+			border-radius: 1px;
+		}
+		
+		.wpbdp-button:hover {
+			opacity: .5;
+		}
+		
+		.wpbdp-field-name {
+			display: block !important;
+			
+			a:link, a:visited {
+				color: #166790;
+				display: block;
+				font-size: 22px;
+				margin-bottom: 20px;
+				text-transform: uppercase;	
+			}
+			
+			label {
+				display: none;
+			}
+		}
+	}
+	
+	.wpbdp-listing-excerpt.odd {
+		background: #f5f5f5;
+	}
+	
+	input[type="submit"] {
+		background: #62C462;
+		border: none;
+		color: #ffffff;
+		cursor: pointer;
+		display: inline-block;
+		font-family: "Hind",sans-serif;
+		font-size: 14px;
+		letter-spacing: 2px;
+		margin-right: 10px;
+		text-transform: uppercase;
+		padding: 8px 15px;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-webkit-transition: opacity .15s linear;
+		-moz-transition: opacity .15s linear;
+		-ms-transition: opacity .15s linear;
+		transition: opacity .15s linear;
+		-webkit-border-radius: 1px;
+		-moz-border-radius: 1px;
+		-ms-border-radius: 1px;
+		border-radius: 1px;
+	}
+		
+	input[type="submit"]:hover {
+		opacity: .5;
+	}
+	
+	.wpbdp-form-field span.sublabel {
+		font-size: 12px;
+		margin: 0;
+	}
+}
+
+
+.wpbdp-listing {
+	position: relative;
+	
+	.listing-title {
+		background: transparent !important;
+		border: none !important;
+		padding: 0 !important;
+		
+		h2 {
+			color: #166790;
+			font-size: 32px;
+			margin-bottom: 20px;
+		}
+	}
+	
+	.listing-actions {
+		
+		input[type="submit"] {
+			background: #62C462;
+			border: none;
+			color: #ffffff;
+			cursor: pointer;
+			display: inline-block;
+			font-family: "Hind",sans-serif;
+			font-size: 14px;
+			letter-spacing: 2px;
+			margin-right: 10px;
+			text-transform: uppercase;
+			padding: 8px 15px;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			-ms-appearance: none;
+			appearance: none;
+			-webkit-transition: opacity .15s linear;
+			-moz-transition: opacity .15s linear;
+			-ms-transition: opacity .15s linear;
+			transition: opacity .15s linear;
+			-webkit-border-radius: 1px;
+			-moz-border-radius: 1px;
+			-ms-border-radius: 1px;
+			border-radius: 1px;
+		}
+		
+		input[type="submit"]:hover {
+			opacity: .5;
+		}
+	}
+	
+	.listing-details {
+		
+		.wpbdp-field-name {
+			display: none;
+		}
+		
+		.wpbdp-field {
+			
+			span,
+			label {
+				color: #777777;
+				font-size: 18px;
+				line-height: 32px;
+			}
+			
+			label {
+				color: #166790;
+				font-weight: 500;
+			}
+		}
+	}
+	
+	.main-image {
+		position:absolute;
+		right:0;
+		top:0;
+		
+		img {
+			border: none !important;
+		}
+	}
+	
+	.social-fields {
+		a:link,a:visited {
+			text-align: center;
+			display: block;
+		}
+	}
+	
+	.social-field.facebook {
+		text-align: center;
+		
+		.fb-like>span {
+			width: 70px !important;
+		}
+	}
+}
+
+@media (min-width: 980px) and (max-width: 1220px) {
+	
+}
+	
+@media (min-width: 768px) and (max-width: 979px) {
+	
+	header.home_default_image,
+	header.header_page.page_default_image {
+		background: url('../img/home_mobile.jpg') no-repeat;
+		background-size: 100%;
+		background-attachment: fixed;
+	}
+	
+	#wpbdp-categories {
+		width: calc(100% - 80px);
+		margin: 0px;
+		margin-top: 40px;
+	}
+	
+	#wpbdp-main-box {
+		margin: 0px;
+		width: 100%;
+	}
+	
+}
+	
+@media (min-width: 480px) and (max-width: 767px) {
+	
+	header {
+		height: 500px;
+	}
+	
+	header.home_default_image,
+	header.header_page.page_default_image {
+		background: url('../img/home_mobile.jpg') no-repeat;
+		background-size: 100%;
+		background-attachment: fixed;
+	}
+	
+	#wpbdp-categories {
+		width: calc(100% - 80px);
+		margin: 0px;
+		margin-top: 40px;
+	}
+	
+	#wpbdp-main-box {
+		margin: 0px;
+		width: 100%;
+	}
+	
+	.wpbdp-listing {
+		
+		.main-image {
+			top: 160px;
+		}
+	}
+	
+}
+	
+@media (min-width: 0px) and (max-width: 479px) {
+	
+	header {
+		height: 500px;
+	}
+	
+	header.home_default_image,
+	header.header_page.page_default_image {
+		background: url('../img/home_mobile.jpg') no-repeat;
+		background-size: 120%;
+		background-attachment: fixed;
+	}
+	
+	.main_cushion.includes {
+		.sponsor_logo {
+			img {
+				margin-bottom: 40px;
+			}
+		}
+		
+		.col_3:last-child {
+			.sponsor_logo {
+				img {
+					margin-bottom: 0px;
+				}
+			}
+		}
+	}
+	
+	#wpbdp-categories {
+		width: calc(100% - 80px);
+		margin: 0px;
+		margin-top: 40px;
+	}
+	
+	#wpbdp-main-box {
+		margin: 0px;
+		width: 100%;
+	}
+	
+	.wpbdp-listing {
+		
+		.main-image {
+			top: 160px;
+		}
+	}
+	
+}
