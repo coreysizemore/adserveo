@@ -41,6 +41,8 @@ header.page_default_image {
 #home_logo {
 	bottom: 140px;
 	height: 100px;
+	margin-left: -370px;
+	width: 700px;
 	
 	#logo_home {
 		
@@ -505,6 +507,22 @@ footer {
 	}
 }
 
+.appointment {
+	background: #5fa046;
+}
+
+.facebook_feed {
+	background: #f5f5f5;
+	padding: 100px 0;
+	
+	.content {
+		h1 {
+			margin-bottom: 30px;
+		}
+	}
+}
+
+
 @media (min-width: 980px) and (max-width: 1220px) {
 	
 }
@@ -537,11 +555,44 @@ footer {
 		height: 500px;
 	}
 	
+	#home_logo {
+		margin-left: -215px;
+		width: 400px;
+		
+		#home_page_nav {
+			ul {
+				li {
+					padding: 0 0 35px 0;
+				}
+				
+				li:first-child {
+					padding-right: 5px;
+				}
+			}
+		}
+	}
+	
 	header.home_default_image,
 	header.header_page.page_default_image {
 		background: url('../img/home_mobile.jpg') no-repeat;
 		background-size: 100%;
 		background-attachment: fixed;
+	}
+	
+	.main_cushion.includes {
+		.sponsor_logo {
+			img {
+				margin-bottom: 40px;
+			}
+		}
+		
+		.col_3:last-child {
+			.sponsor_logo {
+				img {
+					margin-bottom: 0px;
+				}
+			}
+		}
 	}
 	
 	#wpbdp-categories {
@@ -568,6 +619,11 @@ footer {
 	
 	header {
 		height: 500px;
+	}
+	
+	#home_logo {
+		margin-left: -165px;
+		width: 300px;
 	}
 	
 	header.home_default_image,
