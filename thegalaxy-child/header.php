@@ -2,7 +2,7 @@
 		
 	/*
 		@package WordPress
-		@subpackage hoth-child
+		@subpackage thegalaxy-child
 	*/
 	 
 ?>
@@ -29,16 +29,6 @@
 
 	<!-- Mobile Specific Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<!-- Stylesheets -->
-    
-	<link rel="stylesheet" href= "<?php echo get_template_directory_uri(); ?>/style.css">
-	
-	<link rel="stylesheet" href= "<?php echo get_template_directory_uri(); ?>/css/styles.css">
-	
-	<link rel="stylesheet" href= "<?php echo get_template_directory_uri(); ?>/fancybox/fancybox.css">
-	
-	<link rel="stylesheet" href= "<?php echo get_stylesheet_directory_uri(); ?>/css/custom.css">
 
 	<?php wp_head(); ?>   
 	     
