@@ -21,7 +21,7 @@
 
 <?php
 		
-	if( have_rows('sponsors') ):
+	if( have_rows('sponsors','option') ):
 			
 		echo '<div class="sponsor_wrapper"><div class="container"><div class="row gutters"><div class="col_12">';
 				
@@ -35,7 +35,7 @@
 						
 			endif;
 						
-		while ( have_rows('sponsors') ) : the_row();
+		while ( have_rows('sponsors','option') ) : the_row();
 						        
 			echo '<div class="sponsor_logo">';
 					

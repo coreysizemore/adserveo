@@ -68,6 +68,10 @@ header {
 			}
 		}
 	}
+	
+	.image_overlay {
+		background: rgba($colorthree, .5);
+	}
 }
 
 header.slideshow.slideshow_fixed {
@@ -172,6 +176,13 @@ header.header_page_mobile {
 	
 	h1 {
 		color: $colortwo;
+	}
+	
+	a.button {
+		&:link,
+		&:visited {
+			background: $colorthree;
+		}
 	}
 }
 
