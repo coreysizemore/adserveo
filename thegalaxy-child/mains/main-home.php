@@ -171,11 +171,13 @@
 	
 	/* THIS IS EDITED SPECIFICALLY FOR THIS WEBSITE HOME PAGE */
 	
+/*
 	if( get_field('select_a_custom_element') != 'none' ):
 			
 		get_template_part( 'custom/customelement2' );
 				
 	endif;
+*/
 	
 	/* END CUSTOM EDITS */
 	
